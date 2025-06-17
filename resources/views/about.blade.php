@@ -7,6 +7,7 @@
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
         <!-- About Hero Section -->
         <div class="text-center mb-16">
+            <br><br>
             <h1 class="text-4xl font-bold text-white mb-4">About Us</h1>
             <p class="text-xl text-white max-w-3xl mx-auto">We are passionate about creating unforgettable travel experiences for our clients.</p>
         </div>

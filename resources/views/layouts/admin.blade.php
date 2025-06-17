@@ -25,12 +25,12 @@
                     </div>
 
                     <div class="hidden sm:flex sm:items-center sm:ml-6">
-                        <a href="{{ route('home') }}" class="text-[#94A3B8] hover:text-white px-3 py-2 rounded-md text-sm font-medium">
+                        <a href="{{ route('home') }}" class="text-[#94A3B8] hover:text-[#1F3A5F] hover:bg-[#FFA733] px-3 py-2 rounded-md text-sm font-medium transition-all duration-200">
                             View Site
                         </a>
                         <form method="POST" action="{{ route('logout') }}" class="inline-flex">
                             @csrf
-                            <button type="submit" class="text-[#94A3B8] hover:text-white px-3 py-2 rounded-md text-sm font-medium">
+                            <button type="submit" class="text-[#94A3B8] hover:text-[#1F3A5F] hover:bg-[#FFA733] px-3 py-2 rounded-md text-sm font-medium transition-all duration-200">
                                 Logout
                             </button>
                         </form>
