@@ -7,6 +7,54 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
+# TravelPro - Travel Package Management Platform
+
+TravelPro is a web application for managing and booking travel packages. Built with Laravel, it provides a modern, user-friendly interface for both customers and administrators.
+
+## Features
+- Browse and search curated travel packages
+- Detailed package pages with images, itineraries, and highlights
+- Admin dashboard for managing packages and site content
+- User authentication and admin roles
+- Responsive design with Tailwind CSS and Alpine.js
+- Pagination, filters, and interactive UI components
+
+## Tech Stack
+- **Backend:** Laravel (PHP)
+- **Frontend:** Blade, Tailwind CSS, Alpine.js
+- **Build Tools:** Vite, PostCSS
+- **Database:** MySQL (or compatible, configure in `.env`)
+
+## Getting Started
+1. **Clone the repository:**
+   ```sh
+   git clone <your-repo-url>
+   cd claudeside
+   ```
+2. **Install dependencies:**
+   ```sh
+   composer install
+   npm install
+   ```
+3. **Copy and configure environment:**
+   ```sh
+   cp .env.example .env
+   # Edit .env with your database and mail settings
+   php artisan key:generate
+   ```
+4. **Run migrations and seeders:**
+   ```sh
+   php artisan migrate --seed
+   ```
+5. **Build frontend assets:**
+   ```sh
+   npm run build
+   ```
+6. **Start the development server:**
+   ```sh
+   php artisan serve
+   ```
+
 ## About Laravel
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
